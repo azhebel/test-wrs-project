@@ -4,7 +4,7 @@ on:
   # Trigger on push to the `main` branch
   push:
     branches: ["main"]
-  # Specify to run a workflow manually from the Actions tab on GitHub
+  # Run manually from the Actions tab on GitHub
   workflow_dispatch:
 
 env:
@@ -60,7 +60,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: docs
-#          path: artifacts
 
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
@@ -72,7 +71,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     # Requires the test job results
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
