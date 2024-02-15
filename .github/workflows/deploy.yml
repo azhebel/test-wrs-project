@@ -60,7 +60,7 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: docs
-          path: artifacts
+          path: .
 
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
