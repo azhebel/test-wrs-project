@@ -37,8 +37,8 @@ jobs:
         with:
           name: docs
           path: |
-            ./${{ env.ARTIFACT }}
-            ./report.json
+            artifacts/${{ env.ARTIFACT }}
+            artifacts/report.json
             retention-days: 7
 
 #      # Add the step below to upload Algolia indexes
