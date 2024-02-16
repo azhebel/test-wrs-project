@@ -1,3 +1,7 @@
+###
+# This workflow does not include a job that published Algolia indexes
+###
+
 name: Build documentation
 
 on:
