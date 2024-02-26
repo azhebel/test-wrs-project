@@ -5,5 +5,7 @@
         <algolia-index>MY_INDEX</algolia-index>
         <algolia-api-key>a60867732100f4b09174aaea6fe2a857</algolia-api-key>
         <web-root>https://azhebel.github.io/</web-root>
+        <custom-favicons>writerside.svg</custom-favicons>
+        <header-logo>writerside.svg</header-logo>
     </variables>
 </buildprofiles>
