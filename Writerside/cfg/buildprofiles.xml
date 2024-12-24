@@ -4,10 +4,12 @@
         <algolia-id>OAP1ZB6J8O</algolia-id>
         <algolia-index>test_wrs_crawler_pages</algolia-index>
         <algolia-api-key>8d075070d9f574bedafaecfaf4ca9f1c</algolia-api-key>
+        <algolia-show-logo>true</algolia-show-logo>
 <!--        <web-root>https://azhebel.github.io/</web-root>-->
 <!--        <custom-favicons>writerside.svg</custom-favicons>-->
 <!--        <header-logo>writerside.svg</header-logo>-->
 <!--        <search-endpoint>http://hello.world</search-endpoint>-->
         <include-in-head>algolia-verification.html</include-in-head>
+        <noindex-content>false</noindex-content>
     </variables>
 </buildprofiles>
