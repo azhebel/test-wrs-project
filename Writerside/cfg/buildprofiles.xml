@@ -1,9 +1,9 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
-<!--        <algolia-id>NLAGB2LZHU</algolia-id>-->
-<!--        <algolia-index>MY_INDEX</algolia-index>-->
-<!--        <algolia-api-key>a60867732100f4b09174aaea6fe2a857</algolia-api-key>-->
+        <algolia-id>OAP1ZB6J8O</algolia-id>
+        <algolia-index>test_wrs_crawler_pages</algolia-index>
+        <algolia-api-key>8d075070d9f574bedafaecfaf4ca9f1c</algolia-api-key>
 <!--        <web-root>https://azhebel.github.io/</web-root>-->
 <!--        <custom-favicons>writerside.svg</custom-favicons>-->
 <!--        <header-logo>writerside.svg</header-logo>-->
